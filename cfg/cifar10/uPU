@@ -1,0 +1,18 @@
+[dataset]
+dataset_name = cifar10
+batch_size = 500
+max_epoch = 200
+num_labeled = 1000
+overlap = True
+
+[network]
+network_name = CNN
+beta = 0.0
+gamma = 1.0
+risk_type = uPU
+batch_norm = True
+
+[trainer]
+algorithm = Adam
+learning_rate = 1e-05
+

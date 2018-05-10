@@ -1,0 +1,15 @@
+[dataset]
+dataset_name = cifar10
+batch_size = 500
+max_epoch = 200
+num_pos = 1000
+
+[network]
+network_name = CNN
+risk_type = PN
+batch_norm = True
+
+[trainer]
+algorithm = Adam
+learning_rate = 1e-05
+

@@ -1,0 +1,14 @@
+[dataset]
+dataset_name = mnist
+batch_size = 30000
+max_epoch = 200
+num_pos = 1000
+
+[network]
+network_name = MLP
+risk_type = PN
+batch_norm = True
+
+[trainer]
+algorithm = Adam
+learning_rate = 0.001

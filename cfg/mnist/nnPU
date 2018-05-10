@@ -1,0 +1,18 @@
+[dataset]
+dataset_name = mnist
+batch_size = 30000
+max_epoch = 200
+num_labeled = 1000
+overlap = True
+
+[network]
+network_name = MLP
+beta = 0.0
+gamma = 1.0
+risk_type = nnPU
+batch_norm = True
+
+[trainer]
+algorithm = Adam
+learning_rate = 0.001
+

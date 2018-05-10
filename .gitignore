@@ -1,0 +1,7 @@
+data/*
+.idea
+*.pyc
+exp_set
+result
+*~
+__pycache__
